@@ -16,6 +16,7 @@ namespace Discount.gRPC.Services
         {
             _couponRepository = provider.GetRequiredService<ICouponRepository>();
             _logger = provider.GetRequiredService<ILogger<DiscountService>>();
+            _mapper = provider.GetRequiredService<IMapper>();
         }
 
         public override async Task<CouponModel> GetDiscount(GetDiscountRequest request, ServerCallContext context)
