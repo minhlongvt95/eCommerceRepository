@@ -23,7 +23,7 @@
                 var totalPrice = 0m;
                 foreach (var item in Items)
                 {
-                    totalPrice += item.Quanlity * item.Price;
+                    totalPrice += item.Quantity * item.Price;
                 }
 
                 return totalPrice;

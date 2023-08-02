@@ -18,7 +18,7 @@ namespace Catalog.API.Data
                 new Product()
                 {
                     Id = "546c776b3e23f5f2ebdd3b03",
-                    Name = "Product 1",
+                    Name = "IPhone X",
                     Category = "Smart Phone",
                     Summary = "description",
                     Description = "description",
@@ -29,7 +29,7 @@ namespace Catalog.API.Data
                 {
                     Id = "337c776b3e23f5f2ebdd3b12",
                     Name = "Product 2",
-                    Category = "Smart Phone",
+                    Category = "SamSung",
                     Summary = "description",
                     Description = "this is description for product 2",
                     ImageFile = "product-2.png",

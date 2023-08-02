@@ -2,7 +2,7 @@
 {
     public class ShoppingCartItem
     {
-        public int Quanlity { get; set; }
+        public int Quantity { get; set; }
 
         public string Color { get; set; } = string.Empty;
 
